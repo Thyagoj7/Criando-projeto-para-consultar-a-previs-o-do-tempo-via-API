@@ -58,7 +58,4 @@ Projeto desenvolvido ao longo do Bootcamp Everis Fullstack Developer, sendo mini
   ##### Testando
   >  No navegador, acesse a url http://localhost:4200/
   
-  ## Licença 
-  The [MIT License]() (MIT)
-
-  Copyright :copyright: 2020 - bootcamp-everis-fullstack-developer-angular
+ 
