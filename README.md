@@ -1,27 +1,64 @@
-# JvWeather
+<p align="center">
+  <h1>JV Weather</h1>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+> Status do Projeto: Concluido :heavy_check_mark:
 
-## Development server
+### Tópicos 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto-star)
 
-## Code scaffolding
+:small_blue_diamond: [Funcionalidades](#funcionalidades-checkered_flag)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+:small_blue_diamond: [Ferramentas utilizadas](#ferramentas-utilizadas)
 
-## Build
+:small_blue_diamond: [Executando a aplicação](#executando-a-aplicação-arrow_forward)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Descrição do Projeto :star:
+<p align="justify"> 
+Projeto desenvolvido ao longo do Bootcamp Everis Fullstack Developer, sendo ministrado pelo Thyago José, este projeto exibi os dados consultados em uma api de previsão de tempo. O objetivo é evoluir no Angular, aprendendo uma forma avançada de gerenciamento de estado com NGRX, práticas e padrões de desenvolvimento, acompanhados de algumas APIs úteis que o Angular tem.
+</p>
 
-## Running unit tests
+## Funcionalidades :checkered_flag:
+- [X] Consumir dados de uma api de previsão de tempo
+- [X] Pesquisar pela previsão de tempo de uma cidade por autocomplete ou não
+- [X] Visualizar detalhes 
+- [X] Adicionar/remover uma cidade dos favoritos
+- [X] Listar as previsões de tempo de uma cidade 
+- [X] Mostrar os graus em Kelvin, Fahrenheit ou Celsius
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Ferramentas utilizadas
+  - Angular
+  - Bootstrap
+  - NGRX
+  - API Open Weather
 
-## Running end-to-end tests
+## Executando a aplicação :arrow_forward:
+  ##### Dependências:
+  > Angular instalado<br>
+  > Api key da sua conta na Open wheater
+  
+  ##### No terminal, clone o projeto:
+   > git clone https://github.com/Thyagoj7/Projeto-Para-Consultar-A-Previsao-Do-Tempo-Via-API.git
+  
+  ##### Entre na pasta do projeto:
+   > cd JV-Weather
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+  ##### Instale as dependências:
+   > npm install
+ 
+  ##### API
+  >  Entre no site https://openweathermap.org <br>
+  >  Faça a sua conta <br>
+  >  Cole a sua api key nos locais definidos na pasta environments
+  
+  ##### Execute a aplicação:
+   > ng serve
+  
+  ##### Testando
+  >  No navegador, acesse a url http://localhost:4200/
+  
+  ## Licença 
+  The [MIT License]() (MIT)
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+  Copyright :copyright: 2020 - bootcamp-everis-fullstack-developer-angular
